@@ -8,8 +8,27 @@
 .container .img-container img{
     width: 100%;
     border-radius: 20px;
-    
+}
+header{
+    background: bisque;
+    padding: 20px;
+    margin: 20px;
+
+}
 
 
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
 
+header nav ul li{
+    border: 1px solid rgb(238, 160, 160);
+    background-color: brown;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
 }
